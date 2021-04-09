@@ -1,10 +1,9 @@
-# devops-homework
+# Instructions
 
-For executing bash scripts:
-* In your terminal/command prompt, go to this repository folder and enter: `bash bashScript{number}..sh`
+How to execute Bash scripts:
+* In your command line, go to this repository folder and enter: `bash bash/bashScript{number}.sh`.
 
-For executing terraform script:
-* Go to [Download Terraform](https://www.terraform.io/downloads.html) to download Terraform
-* Create an empty folder and go into it, to initialize Terraform by entering: "terraform init"
-* Copy `main.tf` in this repository to that folder
-* Enter `terraform apply`
+How to execute Terraform script:
+* Download Terraform from [Terraform downloads](https://www.terraform.io/downloads.html).
+* In your command line, go to this repository folder and enter: `terraform init terraform/`. This will initialize the folder with Terraform configuration files.
+* Enter `terraform apply` to apply the configuration.
