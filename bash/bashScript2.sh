@@ -1,4 +1,4 @@
-echo "Enter file: "  
+echo "Enter your text file to perform string replacement: "  
 read file
 
 echo "Enter your regular expression: "
